@@ -85,5 +85,4 @@ function reset(){
   document.querySelector('.lesser-guessed').innerHTML = "";
   document.querySelector('.greater-guessed').innerHTML = "";
   getNewNumber();
-  console.log(target);
 }
