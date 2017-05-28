@@ -1,0 +1,73 @@
+* { 
+  padding: 0;
+  margin: 0; 
+}
+
+@font-face{
+  font-family: 'fancyHeading';
+  src: url('fonts/PG_Roof Runners_active.ttf');
+}
+
+canvas { 
+  position: absolute;
+  background: #eee; 
+  display: block;
+  top: 50px;
+  margin: 0 auto; 
+  left: 440px;
+}
+body{
+  background: #000;
+  color: #fff;
+  width: 100%;
+}
+
+#status{
+  margin: 0 auto;
+  font-family: 'fancyHeading';
+  margin: auto;
+  left: 35%;
+  font-size: 48px;
+}
+
+.main{
+  position: absolute;
+  width: 100%;
+  top: 400px;
+}
+
+.difficulty-buttons{
+  margin-left: 100px;
+  margin-top: 100px;
+  font-family: 'fancyHeading';
+  font-size: 24px;
+}
+
+#restart, .difficulty-button{
+  background: #E55EA2;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  font-family: 'fancyHeading';
+  font-size: 32px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0.5px 0.5px 5px rgba(255,255,255,0.3);
+  border-radius: 5px;
+}
+
+#restart:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+  background: #CE5491;
+}
+
+.difficulty-button{
+  background: #ffff66;
+  width: 150px;
+}
+
+.difficulty-button:hover{
+  background: #9ACD32;
+}

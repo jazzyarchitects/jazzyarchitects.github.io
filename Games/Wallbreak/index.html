@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Gamedev Canvas Workshop</title>
+
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+<canvas id="myCanvas" width="480" height="320"></canvas>
+<br />
+<div class="main">
+<center><div id="status">Game in Progress</div></center>
+
+<br />
+<center><div id="instruction">Press `space` to pause/play.</div></center>
+
+<br />
+<center><button id="restart" onclick="restart()">Restart</button></center>
+</div>
+
+<div class="difficulty-buttons">
+    Choose difficulty level...<br />
+    <button class="difficulty-button" onclick="setEasy()"> Easy </button> <br />
+    <button class="difficulty-button" onclick="setMedium()"> Normal </button><br />
+    <button class="difficulty-button" onclick="setHard()"> Hard </button>
+</div>
+</body>
+</html>
